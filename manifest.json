@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Silencio for X (Formerly Twitter)",
   "description": "Quickly mute accounts for a healthier X-perience",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "icons": {
     "16": "/assets/silencio-x-icon-16.png",
     "32": "/assets/silencio-x-icon-32.png",

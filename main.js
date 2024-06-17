@@ -66,7 +66,9 @@ function doWork() {
   const mutedPostArticles = Array.from(
     document.querySelectorAll("article")
   ).filter((article) =>
-    article.textContent.includes("This Post is from an account you muted.View")
+    /This Post is from an account you muted\.View|Show probable spam/.test(
+      article.textContent
+    )
   );
   mutedPostArticles.forEach((article) => (article.style.display = "none"));
 }
