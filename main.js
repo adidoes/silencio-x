@@ -66,11 +66,15 @@ function doWork() {
   const mutedPostArticles = Array.from(
     document.querySelectorAll("article")
   ).filter((article) =>
-    /This Post is from an account you muted\.View|Show probable spam/.test(
-      article.textContent
-    )
+    article.textContent.includes("This Post is from an account you muted.View")
   );
   mutedPostArticles.forEach((article) => (article.style.display = "none"));
+
+  // hide "show probable spam" posts
+  const showSpamPostArticles = Array.from(
+    document.querySelectorAll('[role="button"]')
+  ).filter((article) => article.textContent.includes("Show probable spam"));
+  showSpamPostArticles.forEach((article) => (article.style.display = "none"));
 }
 
 function throttle(func, limit) {
