@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Silencio for X (Formerly Twitter)",
+  "description": "Quickly mute accounts for a healthier X-perience",
+  "version": "0.0.1",
+  "icons": {
+    "16": "/assets/silencio-x-icon-16.png",
+    "32": "/assets/silencio-x-icon-32.png",
+    "48": "/assets/silencio-x-icon-48.png",
+    "128": "/assets/silencio-x-icon-128.png",
+    "512": "/assets/silencio-x-icon-512.png"
+  },
+  "author": "adidoes",
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": [
+        "https://twitter.com/*",
+        "https://mobile.twitter.com/*",
+        "https://x.com/*"
+      ],
+      "css": ["styles.css"],
+      "js": ["main.js"]
+    }
+  ]
+}
