@@ -6,6 +6,10 @@ Quickly mute accounts for a healthier X-perience
 
 tl;dr - I made an extension that adds a button to the tweet that allows you to quickly mute an account. **Bonus: it also hides muted posts.**
 
+## Install
+
+[![Chrome Web Store](https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/iNEddTyWiMfLSwFD6qGq.png)](https://chromewebstore.google.com/detail/silencio-for-x-formerly-t/jgpghhljknlkimiopndfekglhagenodd)
+
 ## How to install manually
 
 1. Download latest .zip from [releases](https://github.com/adidoes/silencio-x/releases)

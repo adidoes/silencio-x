@@ -5,3 +5,5 @@ tmp/
 
 .DS_STORE
 .idea
+*.zip
+store-assets
