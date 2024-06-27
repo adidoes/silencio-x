@@ -18,3 +18,14 @@ tl;dr - I made an extension that adds a button to the tweet that allows you to q
 4. Enable developer mode
 5. Click "Load unpacked"
 6. Select the folder you unzipped
+
+## Changelog
+
+### 0.0.4
+
+- Added not interested button
+- Refactored code to accomodate for multiple buttons
+
+### 0.0.3
+
+- Added support for hiding "show probable spam" posts
